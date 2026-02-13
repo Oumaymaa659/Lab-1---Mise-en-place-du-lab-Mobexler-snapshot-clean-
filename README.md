@@ -32,6 +32,7 @@ Processus d'importation de l'application virtuelle (fichier `.ova`) dans l'hyper
 ## 6. Étape 3 — Premier démarrage + connexion
 Lancement initial de la machine virtuelle Mobexler.
 
+![Premier démarrage](screenshots/step3-first-boot.png)
 
 ## 7. Étape 4 — Vérifier le réseau (tests “santé”)
 Vérification de la connectivité réseau de la VM (commande `ping`, `ifconfig`/`ip a`).
