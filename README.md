@@ -22,32 +22,39 @@ Avant de commencer ce laboratoire, assurez-vous de disposer de :
 ## 4. Étape 1 — Télécharger Mobexler (OVA) et tracer le téléchargement
 Récupération de l'image disque officielle de Mobexler. Il est recommandé de vérifier l'intégrité du fichier téléchargé (hash SHA-256) pour s'assurer qu'il n'a pas été corrompu ou altéré.
 
-![Téléchargement de Mobexler](screenshots/step1-download.png)
+*(Aucune image)*
 
 ## 5. Étape 2 — Importer l’OVA dans VirtualBox/VMware
-Processus d'importation de l'application virtuelle (fichier `.ova`) dans l'hyperviseur. Cette étape configure automatiquement la majorité des paramètres de la machine virtuelle (CPU, RAM, Disque). Il est possible d'ajuster ces ressources selon la puissance de l'hôte.
+Processus d'importation de l'application virtuelle (fichier `.ova`) dans l'hyperviseur.
 
-![Importation de la VM](screenshots/step2-import.png)
+![Importation 1](screenshots/step2-import-1.png)
+![Importation 2](screenshots/step2-import-2.png)
 
 ## 6. Étape 3 — Premier démarrage + connexion
-Lancement initial de la machine virtuelle Mobexler. Une fois le système chargé, l'authentification se fait avec les identifiants par défaut (généralement `mobexler` / `1234`). Cette étape valide que l'importation s'est déroulée correctement.
+Lancement initial de la machine virtuelle Mobexler.
 
-![Premier démarrage](screenshots/step3-first-boot.png)
+*(Aucune image)*
 
 ## 7. Étape 4 — Vérifier le réseau (tests “santé”)
-Vérification de la connectivité réseau de la VM (commande `ping`, `ifconfig`/`ip a`). Il est crucial de s'assurer que Mobexler peut accéder à Internet pour les mises à jour et communiquer avec le réseau local pour atteindre la cible Android.
+Vérification de la connectivité réseau de la VM (commande `ping`, `ifconfig`/`ip a`).
 
-![Vérification réseau](screenshots/step4-network.png)
+![Réseau 1](screenshots/step4-network-1.png)
+![Réseau 2](screenshots/step4-network-2.png)
+![Réseau 3](screenshots/step4-network-3.png)
+![Réseau 4](screenshots/step4-network-4.png)
 
 ## 8. Étape 5 — Créer le snapshot “CLEAN” (baseline)
-Création d'un point de restauration sain avec la VM éteinte ou allumée. Ce snapshot "CLEAN" sert de référence (baseline). Il permet de revenir instantanément à un état propre après avoir effectué des tests destructifs ou installé des malwares, garantissant ainsi la pérennité de l'environnement de lab.
+Création d'un point de restauration sain avec la VM éteinte ou allumée.
 
-![Création du snapshot Clean](screenshots/step5-clean-snapshot.png)
+*(Aucune image)*
 
 ## 9. Étape 6 — Préparer la cible Android (choisir 1 option)
-Configuration de l'appareil cible (smartphone physique ou émulateur). Cette étape implique l'activation du débogage USB (ADB Debugging) et la connexion de l'appareil à l'ordinateur hôte ou au réseau de la VM, afin qu'il soit détecté par les outils d'audit de Mobexler (via la commande `adb devices`).
+Configuration de l'appareil cible (smartphone physique ou émulateur).
 
-![Préparation cible Android](screenshots/step6-android-target.png)
+![Préparation 1](screenshots/step6-android-1.png)
+![Préparation 2](screenshots/step6-android-2.png)
+![Préparation 3](screenshots/step6-android-3.png)
+![Préparation 4](screenshots/step6-android-4.png)
 
 ---
 
