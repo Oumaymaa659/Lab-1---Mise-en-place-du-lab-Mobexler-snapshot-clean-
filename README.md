@@ -22,7 +22,6 @@ Avant de commencer ce laboratoire, assurez-vous de disposer de :
 ## 4. Étape 1 — Télécharger Mobexler (OVA) et tracer le téléchargement
 Récupération de l'image disque officielle de Mobexler. Il est recommandé de vérifier l'intégrité du fichier téléchargé (hash SHA-256) pour s'assurer qu'il n'a pas été corrompu ou altéré.
 
-*(Aucune image)*
 
 ## 5. Étape 2 — Importer l’OVA dans VirtualBox/VMware
 Processus d'importation de l'application virtuelle (fichier `.ova`) dans l'hyperviseur.
@@ -33,7 +32,6 @@ Processus d'importation de l'application virtuelle (fichier `.ova`) dans l'hyper
 ## 6. Étape 3 — Premier démarrage + connexion
 Lancement initial de la machine virtuelle Mobexler.
 
-*(Aucune image)*
 
 ## 7. Étape 4 — Vérifier le réseau (tests “santé”)
 Vérification de la connectivité réseau de la VM (commande `ping`, `ifconfig`/`ip a`).
@@ -46,7 +44,6 @@ Vérification de la connectivité réseau de la VM (commande `ping`, `ifconfig`/
 ## 8. Étape 5 — Créer le snapshot “CLEAN” (baseline)
 Création d'un point de restauration sain avec la VM éteinte ou allumée.
 
-*(Aucune image)*
 
 ## 9. Étape 6 — Préparer la cible Android (choisir 1 option)
 Configuration de l'appareil cible (smartphone physique ou émulateur).
@@ -63,9 +60,8 @@ L'environnement est maintenant opérationnel avec une machine d'attaque (Mobexle
 
 ## Technologies utilisées
 - **Mobexler**
-- **VirtualBox / VMware**
+- **VirtualBox**
 - **Android Debug Bridge (ADB)**
-- **Genymotion / AVD (Cible Android)**
+- **AVD (Cible Android)**
 
-## Auteur
-**Oumayma Benhilal**
+
