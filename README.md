@@ -23,7 +23,7 @@ Avant de commencer ce laboratoire, assurez-vous de disposer de :
 Récupération de l'image disque officielle de Mobexler. Il est recommandé de vérifier l'intégrité du fichier téléchargé (hash SHA-256) pour s'assurer qu'il n'a pas été corrompu ou altéré.
 
 
-## 5. Étape 2 — Importer l’OVA dans VirtualBox/VMware
+## 5. Étape 2 — Importer l’OVA dans VirtualBox
 Processus d'importation de l'application virtuelle (fichier `.ova`) dans l'hyperviseur.
 
 ![Importation 1](screenshots/step2-import-1.png)
