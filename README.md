@@ -45,7 +45,7 @@ Vérification de la connectivité réseau de la VM (commande `ping`, `ifconfig`/
 Création d'un point de restauration sain avec la VM éteinte ou allumée.
 
 
-## 9. Étape 6 — Préparer la cible Android (choisir 1 option)
+## 9. Étape 6 — Préparer la cible Android ( Smartphone test via USB)
 Configuration de l'appareil cible (smartphone physique ou émulateur).
 
 ![Préparation 1](screenshots/step6-android-1.png)
